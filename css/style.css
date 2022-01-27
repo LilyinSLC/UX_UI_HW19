@@ -1,0 +1,350 @@
+.preloader {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: 100000;
+	background-color: white;
+	top: 0;
+	display: flex;
+	align-items: center;
+  }
+  .preloader img {
+	animation: spin 3s ease;
+	transition: all;
+	width: 150px;
+	margin: 0 auto;
+  }
+  .ui-tabs-vertical { width: 70em; padding: 0; display: flex;}
+  .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+  .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+  .ui-tabs-vertical .ui-tabs-panel { padding: 1em; flex: 33%; width: 40em;}
+  
+  .desc {
+	padding-left: 0px;
+	padding-right: 50px;
+	margin: 5px;
+	height: 500px;
+	width: auto;
+	color: #2C2C2C;
+	text-align: left;
+	flex: 70%;
+  }
+
+* { box-sizing: border-box; }
+body { background-color: #40407A;
+       color: #40407A;
+	   font-family: Playfair Display, Natural, sans-serif;
+	   margin: 0;
+}
+#wrapper { 
+           background-color: #F5F5F5;
+		   padding: 2em; 
+		   width: auto;
+		}
+header { background-color: #40407A;      
+        color: #FFF;
+        background-image: url(../images/DavisTech-Combined1.jpg);
+        background-size: 100% 100%;
+		margin-top: 50px;
+		font-size: 90%;
+		min-height: 200px;
+}
+header a { text-decoration: none; }
+header a { font-style: italic; }
+header a:link { color: #FFF; }
+header a:visited { color: #FFF; }
+header a:hover { color: #d64886; }
+.home { height: 20vh;
+       padding-top: 2em;
+	   padding-left: 10%;
+	 }
+.content { height: 20vh;
+          padding-top: 2em;
+		  padding-left: 10%;
+		   }
+nav { text-align: right;
+     background-color: #FFF;
+	 margin: 0;
+	 padding-top: 0.5em; 
+	 padding-bottom: 1em;
+	 padding-right: 1em;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 z-index: 9999;
+	 width: 100%;
+	 height: auto;
+	 padding-right: 0;
+}
+nav ul { list-style-type: none; 
+       margin: 0;
+	   padding-right: 2em;
+	   font-size: 1.2em; }
+nav li { display: inline;
+      padding-left: 2em; 
+	  width: 30%; }
+nav a { text-decoration: none; }
+nav a:link { color: #392860; }
+nav a:visited { color: #9F9E3D; }
+nav a:hover { color: #D64886; }
+li, dd { font-size: 90%; }
+#about{
+	display: flex;
+}
+#about > div {
+	margin: 10px;
+	text-align: left;
+}
+#Profile{}
+	   
+#text h2{ color: #D64886; 
+	font-family: Natural;
+	font-size: xx-large;
+}
+#text h1{ color: black; 
+	font-family: playfair dispay;
+	font-size: large;
+}
+.students{ 
+	color: #2c2c2c; 
+	font-size: medium;
+	font-style: italic;
+}
+
+#Explore{
+	text-align:center;
+	color: black;
+}
+#Explore a { text-decoration: none; color: black;}
+         a :hover { color: #d64886; }
+#Explore img{
+	height: 30px;
+}
+#bounce {
+	text-align: center;
+  }
+#bounce img{
+	height: 30px;
+	animation: bounceArrow .7s infinite;
+	position: absolute;
+}
+  @keyframes bounceArrow {
+	from {
+	  margin-top: 0px;
+	}
+	50% {
+	  margin-top: 7px;
+	}
+	to {
+	  margin-top: 0px;
+	}
+  }
+/* for contact page */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+form { display: flex; flex-flow: column nowrap; }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: #7b7b2b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 25%;
+}
+
+input[type=submit]:hover {
+  background-color: #d64886;
+  width: 25%;
+}
+
+.container {
+  border-radius: 45px;
+  background-color: #d6d1d1;
+  padding: 15px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+#Social {
+	text-align: center;
+	padding-top: 30px;
+	
+}
+#Social img{
+	height: 30px;	
+	}
+#Social a:link{
+		text-decoration: none;
+	color: black;
+	display: inline-block;
+	}
+footer { font-size: small;
+	   text-align: center;
+	   font-style: italic; 
+	   clear: right; }
+
+/* For Skills page. Create three equal columns that floats next to each other */
+.column1{
+	color: white;
+	float: left;
+	width: 300px;
+	padding: 15px;
+	height: 320px; 
+	border-spacing: 15px;
+	flex: 60%;
+	margin: 1em 1%;
+ }
+ .column2{
+	color: white;
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+	height: 320px; 
+	border-spacing: 15px;
+	flex: 60%;
+	margin: 1em 1%;
+ }
+ .column3{
+	color: white;
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+	height: 320px; 
+	border-spacing: 15px;
+	flex: 60%;
+	margin: 1em 1%;
+ }
+.skills {
+	display: flex;
+	}
+ /* Clear floats after the columns */
+  .row {
+    display: flex;
+    border: 3px solid #1c1318;
+    width: 100%; /* it changes by screen size actually */
+    padding: 5px;
+}
+.row:before, .row:after {
+    content: "";
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+   #Research {
+	color: white;
+	padding: 20px;
+	text-align: left;
+  }
+/* For Projects page */
+#column1 {
+	background-color: #E6E1E1;
+	flex-direction: column;
+  }
+  #row1 {
+	background-color: #E6E1E1;
+	display: flex;
+  }
+  .flex {
+	display: flex;
+	padding: 5px;
+	margin: 5;
+  }
+.flex_item {
+	padding:5px;
+	margin: 5px;
+	Height: 250px;
+	width: 250px;
+	background-color: #B9B9B9;
+	color: #2c2c2c;
+	text-align: center;
+  }
+  .flex_item1  h2{
+	padding: 15px;
+	margin: 5px;
+	height: 60px;
+	width: 100%;
+	background-color: #B9B9B9;
+	color: #2C2C2C;
+	text-align: center;
+  }
+  .boxes{
+	  display: flex;
+	  flex-direction: column;
+  }
+  .flex_item2 {
+	padding-left: 20px;
+	margin: 5px;
+	height: 170px;
+	width: 360px;
+	background-color: #B9B9B9;
+	color: #2C2C2C;
+	text-align: left;
+	flex: 33%;
+  }
+  .flex_item3 {
+	padding-left: 20px;
+	margin: 5px;
+	Height: 170px;
+	width: 360px;
+	background-color: #B9B9B9;
+	color: #2C2C2C;
+	text-align: left;
+	flex: 33%;
+  }
+  
+
+@media (min-width: 600px) {		  
+		nav ul { display: flex;
+		       flex-flow: row nowrap;
+			   justify-content: flex-end; }	
+		nav li { width: 7em; }
+		section { padding-left: 2em;
+		        padding-right: 2em; }
+		#mathero, #loungehero { display: block;
+								padding-bottom: 1em; }
+		#flow { display: flex;
+		        flex-direction: row; }
+		#row1 {width: auto;}
+		#colum1 {width: auto;}
+		#wrapper { width: 80%; margin: auto; }
+
+		
+ }
+
+ @media (min-width: 768px) {
+	
+ }
+ @media (min-width: 1024px) { 
+		header { font-size: 120%; }
+		nav { font-weight: bold; }
+		.home { height: 50vh;
+		        padding-top: 5em;
+				padding-left: 8em; }
+		.content { height: 30vh;
+				   padding-top: 2em;
+				   padding-left: 8em; }
+		#wrapper { width: 80%; margin: auto; }
+		#row1 {width: auto;}
+		#colum1 {width: auto;}
+		.boxes {
+			flex-direction: row;;
+		}
+ }
+		  

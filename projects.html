@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Lily Yang Portfolio</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Tabs - Vertical Tabs functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+    $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+  } );
+  </script>
+  <style>
+  .ui-tabs-vertical { width: 55em; }
+  .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+  .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+  .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+  </style>
+</head>
+<body>
+    <body>
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+        <header class="home">
+          <h1><a href="index.html">Lily Yang Portfolio</a></h1>
+        </header>
+      
+        <div id="wrapper">
+      
+          <main>
+            <h2>MY WORK</h2>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Project 1</a></li>
+    <li><a href="#tabs-2">Project 2</a></li>
+    <li><a href="#tabs-3">Project 3</a></li>
+    <li><a href="#tabs-4">Project 4</a></li>
+  </ul>
+     <!--Project 1-->
+  <div id="tabs-1">
+          <div id="tabs-1" class="ui-tabs-panel">
+        <div class="desc">
+          <img src="images/Project1.jpg" alt="GoReunion Project" width="200" height="200">
+          
+          <h2>Project 1: GoReunion Mobile App</h2>
+        <p>This mobile app is designed for families and friends to plan the future-reunion so everyone will be on
+          the same page.</p>
+  
+          <P><strong>My Responsibilities</strong></P>
+          <ul>
+            <li>User research</li>
+            <li>User empathy </li>
+            <li>Site design</li>
+            <li>Wireframe/Prototype </li>
+            <li>Usability Test </li>
+          </ul>
+          <a href="images/GoReunion UX Case Study.pdf" download rel="GoReunion UX Case Study">
+            <img src="images/ViewCaseStudy.jpg" alt="Case Study" width="130" height="40">
+          </a>
+        </div>
+      </div>
+    </div>
+
+     <!--Project 2-->
+  <div id="tabs-2">
+    <div id="tabs-2" class="ui-tabs-panel">
+    <div class="desc">
+        <img src="images/Project2.jpg" alt="ED Redesign Project" width="200" height="150">
+        
+        <h2>Project 2: US Department of Education Site Redesign</h2>
+        <p>The project goal is to redesign ed.gov site with a clean and easy
+          navigation system so users can find information quicker. I work with
+          Colleen. an UX design student for this project. We shared some
+          responibilites and also design the site on our own.</p>
+        <P><strong>My Responsibilities</strong></P>
+        <ul>
+          <li>User research</li>
+          <li>User empathy </li>
+          <li>Site design</li>
+          <li>Wireframe/Prototype </li>
+          <li>Usability Test </li>
+        </ul>
+         <a href="images/ED Site Redesign Case Study.pdf" download rel="ED Site Redesign Case Study">
+          <img src="images/ViewCaseStudy.jpg" alt="Case Study" width="130" height="40">
+        </a>
+      </div>
+    </div>
+  </div>
+   <!--Project 3-->
+   <div id="tabs-3">
+    <div id="tabs-3" class="ui-tabs-panel">
+        <div class="desc">
+    <img src="images/Project3.jpg" alt="CCF Site Redesign Project" width="400" height="150">
+    <h2>Projec 3: Cottonwood Canyons Foundation Site Redesign</h2>
+        <p>Based on the user research, users are more willing to get involved
+          with specific and special events. The project goal is to re-design
+          the landing with this focus for the user and provide a clear and easy
+          navigation system. This is a team project. I work
+          with two other designers.</p>
+
+    <P><strong>My Responsibilities</strong></P>
+    <ul>
+      <li>User empathy-analyze user research data</li>
+      <li>Create user personal, user journey map, and define user pain points</li>
+      <li>Design the Style Guide and the homepage footer section</li>
+      <li>Wireframe and prototype</li>
+      <li>Usability test </li>
+    </ul>
+      <a href="images/CCF Redesign Case Study Summary.pdf" download rel="CaseStudy">
+    <img src="images/ViewCaseStudy.jpg" alt="Case Study" width="130" height="40">
+  </a>
+ </div>
+</div>
+</div>
+ <!--Project 4-->
+ <div id="tabs-4">
+    <div id="tabs-4" class="ui-tabs-panel">
+        <div class="desc">
+            <img src="images/Project4.jpg" alt="FridgeFresh Project" width="200" height="190">
+            <h2>Project 4: FridgeFresh Mobile App</h2>  
+            <p>A mobile app helps to inventory your refrigerator
+               so you can save money and time, and reduce food waste. </p>
+            <P><strong>My Responsibilities</strong></P>
+                <ul>
+                  <li>User research</li>
+                  <li>User empathy</li>
+                  <li>Competitors analysis</li>
+                  <li>Wireframe and prototype</li>
+                  <li>Usability test </li>
+                </ul>
+                <a href="images/FridgeFresh Case Study Summary.pdf" download rel="CaseStudy">
+                    <img src="images/ViewCaseStudy.jpg" alt="Case Study" width="130" height="40">
+        </a>
+     </div>
+    </div>
+   </div>
+ </div>
+</main>
+<footer>
+  <div id="Social">
+    <a
+      href="https://www.linkedin.com/in/lily-yang-2bb64554/?msgControlName=reply_to_sender&msgConversationId=2-MDllNjhmNTEtNzkyOC01Yjc3LWJiYjctNTQ4OGFmNGY5YTFhXzAwMA%3D%3D&msgOverlay=true">
+      <img src="images/icons8-linkedin-circled-30.png"></a>
+    <a href="Contact.html">
+      <img src="images/icons8-circled-envelope-30.png"></a>
+    <a href="HitHub.com"> <img src="images/icons8-github-30.png"></a>
+  </div>
+  Copyright &copy; Lily Yang Portfolio <br>
+  <a href="mailto:lily.yang@davistech.edu">lily.yang@davistech.edu</a>
+</footer>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script src="js/template.js"></script>
+<script src="js/index.js"></script>
+</html>
+</body>
+</html>
